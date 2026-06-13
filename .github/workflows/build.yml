@@ -15,7 +15,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     container:
-      image: barichello/godot-ci:3.6.2
+      image: barichello/godot-ci@sha256:026e1f652dd1d718073bb5c32372b3a5d73e7ad7bfe13b9052423604fca6918f
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies
